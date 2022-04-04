@@ -1,16 +1,14 @@
 <template>
   <div id="app">
-    <ques1/>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import ques1 from './components/question1.vue'
 
 export default {
   name: 'App',
   components: {
-    ques1
   }
 }
 </script>
